@@ -1,0 +1,117 @@
+#container_general {
+  max-width: 1100px; }
+  #container_general h1, #container_general p {
+    line-height: 1.5;
+    margin: 0; }
+  #container_general a {
+    text-decoration: none; }
+  #container_general h1 {
+    text-align: center;
+    font-size: 45px; }
+  #container_general button {
+    background: transparent;
+    border: 0; }
+  #container_general .p1 {
+    text-align: center;
+    font-size: 14px; }
+  #container_general h2 {
+    margin: 0; }
+  #container_general h1, #container_general h2, #container_general span {
+    font-family: Georgia, "Times New Roman", Serif; }
+  #container_general p, #container_general b, #container_general a {
+    font-family: Arial, Helvetica, sans-serif; }
+
+.slider__Sections {
+  float: left; }
+  .slider__Sections:first-child {
+    height: 650px;
+    width: 60%; }
+
+.sliderSection__arrow {
+  width: 45px; }
+
+.slider__imgBackground {
+  background-size: cover;
+  background-image: url("../img/bg-event.jpeg");
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2; }
+
+.slider__content {
+  padding: 20px 14px;
+  color: #fff;
+  grid-area: i;
+  position: relative; }
+  .slider__content span {
+    color: #000000;
+    font-family: Georgia, "Times New Roman", Serif;
+    padding: 10px;
+    font-family: 18px;
+    font-weight: bold;
+    display: inline-block;
+    background: #73c5a5; }
+  .slider__content a {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: right;
+    padding: 10px;
+    background: #73c5a5;
+    color: #fff;
+    font-size: 14px;
+    position: absolute; }
+
+.sections__slider {
+  padding-top: 50px; }
+
+.text_sliderContent, .location_sliderContent {
+  font-size: 25px; }
+
+.sliderSections__img {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-areas: ". i i i i i ."; }
+
+.location_sliderContent {
+  display: block;
+  padding: 30px 0; }
+
+.date_sliderContent {
+  font-size: 40px;
+  padding-top: 60px; }
+
+.eventDetails {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #222; }
+
+.events__list_content li {
+  margin-left: 15px; }
+  .events__list_content li h2 {
+    font-size: 28px; }
+  .events__list_content li p, .events__list_content li b, .events__list_content li a {
+    font-size: 14px; }
+
+.eventDetails {
+  padding: 5px 15px;
+  border-radius: 100px;
+  color: #222;
+  border: 2px solid; }
+
+.events__list_content {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.events__list_content li + li {
+  margin-top: 30px; }
+.events__list_content .event_marked {
+  border-left: 15px solid #73c5a5;
+  padding-left: 35px; }
+
+/*# sourceMappingURL=style.css.map */

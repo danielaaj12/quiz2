@@ -1,0 +1,39 @@
+.eventDetails{
+    font-family: $font2;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    color:$botones;
+}
+.events__list_content li {
+    margin-left: 15px;
+    h2 {
+        font-size: 28px;
+    }
+    p, b, a {
+        font-size: 14px;
+    }
+}
+.eventDetails {
+    padding: 5px 15px;
+    border-radius: 100px;
+    color:$botones;
+    border: 2px solid ;
+}
+.events__list_content {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.events__list_content {
+    li + li {
+        margin-top: 30px;
+    }
+
+.event_marked {
+    border-left: 15px solid $color-fondos;
+    padding-left: 35px; 
+    
+}
+
+}
