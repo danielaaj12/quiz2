@@ -1,0 +1,39 @@
+.events-content_details{
+    font-family: $font2;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    color:$botones;
+}
+.event_ult li {
+    margin-left: 15px;
+    h2 {
+        font-size: 28px;
+    }
+    p, b, a {
+        font-size: 14px;
+    }
+}
+.events-content_details {
+    padding: 5px 15px;
+    border-radius: 100px;
+    color:$botones;
+    border: 2px solid ;
+}
+.events_ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.events_ul {
+    li + li {
+        margin-top: 30px;
+    }
+
+.events_marked {
+    border-left: 15px solid $color-fondos;
+    margin-left: 57%;
+    
+}
+
+}

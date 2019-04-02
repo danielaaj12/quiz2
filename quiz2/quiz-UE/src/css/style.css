@@ -1,0 +1,118 @@
+body {
+  max-width: 1100px; }
+  body h1, body p {
+    line-height: 1.5;
+    margin: 0; }
+  body a {
+    text-decoration: none; }
+  body h1 {
+    text-align: center;
+    font-size: 45px; }
+  body button {
+    background: transparent;
+    border: 0; }
+  body h2 {
+    margin: 0; }
+  body h1, body h2, body span {
+    font-family: Georgia, "Times New Roman", Serif; }
+  body p, body b, body a {
+    font-family: Arial, Helvetica, sans-serif; }
+
+p {
+  text-align: center;
+  font-size: 14px; }
+
+.slider__info {
+  float: left; }
+  .slider__info:first-child {
+    height: 650px;
+    width: 60%; }
+
+.slider-arrow {
+  width: 45px; }
+
+.slider-image__backgroung {
+  background-size: cover;
+  background-image: url("../img/bg-event.jpeg");
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2; }
+
+.slider-image {
+  padding: 20px 14px;
+  color: #fff;
+  grid-area: i;
+  position: relative; }
+  .slider-image span {
+    color: #000000;
+    font-family: Georgia, "Times New Roman", Serif;
+    padding: 10px;
+    font-family: 18px;
+    font-weight: bold;
+    display: inline-block;
+    background: #73c5a5; }
+  .slider-image a {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: right;
+    padding: 10px;
+    background: #73c5a5;
+    color: #fff;
+    font-size: 14px;
+    position: absolute; }
+
+.slider {
+  padding-top: 50px; }
+
+.slider-image__text, .slider-image__location {
+  font-size: 25px; }
+
+.slider__img {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-areas: ". i i i i i ."; }
+
+.slider-image__location {
+  display: block;
+  padding: 30px 0; }
+
+.slider-image__date {
+  font-size: 40px;
+  padding-top: 60px; }
+
+.events-content_details {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #222; }
+
+.event_ult li {
+  margin-left: 15px; }
+  .event_ult li h2 {
+    font-size: 28px; }
+  .event_ult li p, .event_ult li b, .event_ult li a {
+    font-size: 14px; }
+
+.events-content_details {
+  padding: 5px 15px;
+  border-radius: 100px;
+  color: #222;
+  border: 2px solid; }
+
+.events_ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.events_ul li + li {
+  margin-top: 30px; }
+.events_ul .events_marked {
+  border-left: 15px solid #73c5a5;
+  margin-left: 57%; }
+
+/*# sourceMappingURL=style.css.map */
